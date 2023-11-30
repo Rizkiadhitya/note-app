@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    input {
+        @apply w-full p-3 border-2 rounded-lg focus:outline-none shadow;
+    }
+    button{
+        @apply w-full p-3 bg-green-800 hover:bg-teal-500 text-white shadow rounded-lg;
+    }
+    body {
+        @apply bg-gradient-to-br from-orange-200 to-indigo-400 min-h-screen bg-fixed max-w-3xl m-auto py-8 px-6 font-sans;
+    }
+}
